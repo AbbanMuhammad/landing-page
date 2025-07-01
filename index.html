@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts (FIXED) -->
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-      href="<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-</style>"
     />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header class="header-container">
       <div class="header-logo">
-        <img class="header-logo" src="/images/cat logo.png" alt="Logo" />
+        <img src="/images/cat-logo.png" alt="Cat Logo" />
       </div>
-      <div class="header-nav">
+
+      <nav class="header-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </div>
+      </nav>
+
       <div class="main-text">
-        <h1>This website is <br />awsome</h1>
+        <h1>This website is <br />awesome</h1>
         <p>
-          This website has some subtext that goes here under the <br />main
-          title. It's a smalller font and the color is lower <br />
-          contrast
+          This website has some subtext that goes here under the <br />
+          main title. It's a smaller font and the color is lower <br />
+          contrast.
         </p>
       </div>
+
       <div class="button">
-        <button name="button">Sign up</button>
+        <button type="button">Sign Up</button>
       </div>
+
       <div class="placeholder">
         <img
           class="cat-placeholder"
-          src="./images/cat-3591348_640.jpg "
-          alt="An image of a white cat"
+          src="./images/cat-3591348_640.jpg"
+          alt="A white cat sitting calmly"
         />
       </div>
     </header>
