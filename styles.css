@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  color: #f9faf8;
+}
+
+.header-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 10px;
+}
