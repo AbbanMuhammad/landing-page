@@ -27,9 +27,17 @@ ul li a {
 h1 {
   font-size: 48px;
   font-weight: 900;
+  margin-top: 48px;
 }
 
-.header-container p a {
+p a {
   font-size: 18px;
+}
+
+button {
+  background-color: #3882f6;
   color: #e5e7eb;
+  padding: 5px 25px;
+  border-radius: 10px;
+  margin-top: 15px;
 }
