@@ -10,9 +10,26 @@
   color: #f9faf8;
 }
 
+ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
 .header-logo {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header-container p a {
+  font-size: 18px;
+  color: #e5e7eb;
 }
