@@ -85,7 +85,22 @@ button {
 }
 
 /* First Section */
-.main-container {
+
+.section-1 .paragraph-1 {
   background-color: #f9faf8;
-  color: #000;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section-1 {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
+
+.main-container {
+  /* display: flex; */
+  background-color: #f9faf8;
+  color: #1f2937;
 }
