@@ -92,6 +92,7 @@ button {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  padding-top: 30px;
 }
 
 .section-1 {
@@ -100,7 +101,22 @@ button {
 }
 
 .main-container {
-  /* display: flex; */
+  display: flex;
   background-color: #f9faf8;
   color: #1f2937;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.image {
+  margin-top: 30px;
+}
+
+.img-1 {
+  border-radius: 10%;
+}
+.main-container .image {
+  margin-left: 40px;
 }
